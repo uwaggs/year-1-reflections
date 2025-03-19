@@ -1,0 +1,18 @@
+---
+title: "Introduction"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+An Integrated Support Team (IST) is a collaborative group of individuals who support athletes, coaches, and teams by consolidating expertise from their respective domains to ensure that athletes are optimized for performance. This is a model used by numerous professional and national sport organizations (cite), and is being implemented at the University of Waterloo to provide both experiential and work-integrated learning opportunities for students and best-in class support to several varsity athletics teams.
+
+As an IST member, students have the opportunity to get academic credits while collaborating with other undergraduate students to further support Warrior athletes and coaches. Integration is an essential element of professional practice in the sports industry and this opportunity provides concrete experience which allows students to develop interpersonal, and collaboration, and technical skills.
+
+2024–25 was the pilot year for the IST program, with four streams offered: sports science, data solutions, athletic therapy, and strength and conditioning.
+
+In this article, members from the **data solutions** stream will share details on some of their project and reflect on their experiences
+
+
