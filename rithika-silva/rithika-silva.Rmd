@@ -1,0 +1,26 @@
+### Rithika Silva, Bachelor of Computer Science, Infrastructure Developer
+
+I joined to help develop the infrastructure necessary to support a multi-sport IST program. Everything from automated data collection, pipelining, to writing tools for the student analysts.
+
+### Projects
+
+**usportspy**:
+
+[usportspy](https://github.com/uwaggs/usportspy) is a Python package to extract and analyze data for U SPORTS, the Governing Body of University Sport in Canada. It currently supports 11 sports and has functions that enable. The package contains play-by-play, box scores, and rankings data for over a decade's worth of pre-season, regular season, and post-season games.
+
+**Synergy Scraper**:
+
+[synergy-scraper](https://github.com/uwaggs/synergy-scraper) is an in-house scraper to collect information for U SPORTS Basketball. It archives data on various aspects of gameplay, such as defensive, cuts, offensive rebounds, and ball handling. The goal was to provide analysts easy access to a wealth of detailed performance statistics in an easily accessible format (GitHub releases). The mechanics of the scraper leverages the internal Synergy API.
+
+**Instat Scraper**:
+
+[instat-scraper](https://github.com/uwaggs/instat-scraper) is an in-house scraper to collect information for U SPORTS hockey. It archives the tables presented under the "Games", "Skaters", and "Goalies" tab for the UW hockey team.
+
+
+### Reflections
+
+As an infrastructure team, we were able to get the groundwork for getting some data collection pipelines up and running. We leveraged GitHub Actions and releases to run our workflows and store our data. While this isn't ideal, it seems to be fairly reliable. To move forwards, having our own compute is vital. For the upcoming season, the goal is to have collection-to-insight pipelines for our supported teams. This involves coming up with generalized structure so that we don't duplicate work.
+
+Documentation going forwards is also very important.
+
+
