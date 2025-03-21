@@ -29,6 +29,10 @@ Unfortunately, we were unable to find a convenient way of logging in that didn't
 ### Reflections
 
 As an infrastructure team, we were able to get the groundwork for getting some data collection pipelines up and running. We leveraged GitHub Actions and releases to run our workflows and store our data. While this isn't ideal, it seems to be fairly reliable. To move forwards, having our own compute is vital. For the upcoming season, the goal is to have collection-to-insight pipelines for our supported teams. This involves coming up with generalized structures so that we don't duplicate work.
+
 Documentation going forwards is also very important.
+
+
+([Site](https://rithikasilva.ca/), [Blog](https://rithikasilva.ca/b.log-/), [LinkedIn](https://ca.linkedin.com/in/rithika-silva-861b0818a), [GitHub](https://github.com/rithikasilva))
 
 
