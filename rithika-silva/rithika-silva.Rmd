@@ -1,0 +1,38 @@
+### Rithika Silva, 4th Year Bachelor of Computer Science, Infrastructure Developer
+
+I joined to establish the infrastructure necessary to support a multi-sport IST program. Everything from automated data collection, data pipelining, to writing tools for the student analysts.
+
+### Projects
+
+**usportspy**:
+
+[usportspy](https://github.com/uwaggs/usportspy) is a Python package to extract and analyze data for U SPORTS, the Governing Body of University Sport in Canada. It currently supports 11 sports and contains functions that return play-by-play, box scores, and rankings data for over a decade's worth of pre-season, regular season, and post-season games.
+
+Constructing usportspy (and usportsR), required a lot of setup work. The data that we wanted to house were scattered across the internet, so required scrapers to be built for each sport. We opted to use GitHub Actions to run our scrapers (one for each sport), and store the data as releases (since the quantity of data for sport was reasonable and wouldn't increase quickly). This infrastructure allowed for decoupling of the collection process and development of the package(s) themselves.
+
+The associated paper and links to usportspy and usportsR can be found [here](https://github.com/uwaggs/USPORTS-Packages-Paper).
+
+
+**Synergy Scraper**:
+
+"synergy-scraper" is an in-house scraper to collect information for U SPORTS basketball. Synergy Sports is a professional-level sports analytics and video platform, primarily used for basketball. It houses possession-by-possession video, advanced analytics, and scouting reports. Our scraper was designed to archive data on various aspects of gameplay, such as defensive, cuts, offensive rebounds, and ball handling. 
+
+The goal was to provide analysts easy access to a wealth of detailed performance statistics in an easily accessible format (GitHub releases). The mechanics of the scraper leverages the internal Synergy API, and thus required reverse engineering the sites PKCE (Proof Key for Code Exchange) to replicate it programmatically. We opted for this over using a UI-based approach for robustness, as APIs are less likely to change than frontend views. The second hurdle encountered was converting "magic numbers" in requests headers pertaining to values such as "Report Types" and "Play Types". Doing so involved manually sending requests through the browser and monitoring network requests to match options selected with requests sent.
+
+**Instat Scraper**:
+
+"instat-scraper" is an in-house scraper to collect information for U SPORTS hockey from the Instat Hudl instance used for UW hockey. Instat is an application used for analysis and scouting that uses tagged video film and tagged data to enhance performance analysis for teams. The goal of the scraper was to archive the player statistics tables presented under the "Games", "Skaters", and "Goalies" tabs.
+
+Unfortunately, we were unable to find a convenient way of logging in that didn't involve browser automation. Fortunately, there was a download button for each table that returned a `xlsx` file for each table we wanted. As a result, the overall code is not very complex.
+
+
+### Reflections
+
+As an infrastructure team, we were able to get the groundwork for getting some data collection pipelines up and running. We leveraged GitHub Actions and releases to run our workflows and store our data. While this isn't ideal, it seems to be fairly reliable. To move forwards, having our own compute is vital. For the upcoming season, the goal is to have collection-to-insight pipelines for our supported teams. This involves coming up with generalized structures so that we don't duplicate work.
+
+Documentation going forwards is also very important.
+
+
+([Site](https://rithikasilva.ca/), [Blog](https://rithikasilva.ca/b.log-/), [LinkedIn](https://ca.linkedin.com/in/rithika-silva-861b0818a), [GitHub](https://github.com/rithikasilva))
+
+
