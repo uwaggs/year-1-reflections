@@ -1,0 +1,15 @@
+## Hudson Holman, 4th Year Math Student, Men's Hockey
+
+I had helped the men's hockey team in previous years but working solo and without clear direction drained my interest in the endeavour. When I met David and he introduced me to the Data Solutions IST program, I immediately regained my enthusiasm for both the sport and data science. He designed this program with a clear vision and my participation in this group has had numerous benefits. I get to connect with and learn from like-minded students, all of whom are much smarter than me and have helped me improve my technical skills. Together with Arun, I think our work helped Brian Bourque lead the team to an unexpected playoff berth this season.   
+
+### Projects
+
+-  [Game Lineup Sheet](https://github.com/uwaggs/mhky_misc/blob/main/Game%20Lineup%20Chart%202024-25_w_stats.xlsx) - Making sure the sheet containing the schedule and player statistics are up to date and emailing it to coach 24 hours before the next game.
+-  [In-Game Tracking](https://github.com/uwaggs/mhky_misc/blob/main/MHKY%20Tracking%202024-25.xlsx) - This sheet was used to track events happening during an individual game. All data would be imported into a shared Excel file however I think 2025-26 season will see a different process.
+-  [In-Season Reporting](https://uwaggs.github.io/mhky_reports/) - For the first year, I did a mid-season and end-of-season report that explored some of my data and data coming from InStat. Met with Brian Bourque to go over my findings and brainstorm strategies based on the information. Future reports can be added through [this repo](https://github.com/uwaggs/mhky_reports).
+
+### Reflections
+
+  - What went well: Consistent touchpoints with the coaching staff (always having Arun or I at the games and discussing our work with them on a weekly basis)
+  - What I want to improve: I can always improve my technical skills. This involves experimentation but requires inspiration from hockey research. So, I would say I need to say more accountable in keeping up with hockey research and working on simple ways of applying this research to my work with men's hockey.
+  - What I'm looking forward to doing next season: Unfortunately, I will not be returning to the IST as I am graduating. However, I am excited to see less tracking (much of time was spent here) and more analysis and see some of Arun's projects come to fruition. Especially his work on line combinations. 
