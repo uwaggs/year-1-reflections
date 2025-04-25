@@ -9,11 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## About Me)
-
-Name: Fauzan Lodhi
-Program: Honours Mathematics (Statistics, Co-op)
-Sport: Men's Basketball
+## Fauzan Lodhi, 4th Year Honours Mathematics (Statistics), Men's Basketball
 
 ## Year 1 Projects)
 
