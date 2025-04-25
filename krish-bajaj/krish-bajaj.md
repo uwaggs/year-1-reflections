@@ -1,8 +1,7 @@
 ---
 title: "UWA GGS IST - Stats Project Reflection"
 author: "Krish Bajaj"
-date: "`April 25, 2025"
-output: html_document
+date: "April 25, 2025"
 ---
 
 # Project Overview
