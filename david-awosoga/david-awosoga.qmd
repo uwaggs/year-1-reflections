@@ -1,0 +1,125 @@
+---
+title: "David Awosoga"
+author: "1st Year<br>PhD Statistics<br>Women's Volleyball (WVB) Analyst"
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+<!-- ## David Awosoga, 1st Year PhD Statistics, Women's Volleyball -->
+
+I started the data solutions stream of the Waterloo Warriors IST to
+further my vision of making the University of Waterloo a leader in
+sports analytics, particular within their application to varsity
+athletics. To create a sustainable pipeline of performance analysts and
+data scientists equipped to fill these roles across the athletics
+department, I developed a curriculum in the form of a directed reading
+program and actively mentor and guide students on their respective
+projects. I trained, coordinated, and supervised the other members of
+the data solutions stream, and while the work required to get this
+initiative off the ground has been tremendous, but the positive feedback
+from coaches, teams, and members has provided assurance that this group
+will continue to blossom.
+
+## Projects
+
+### Neuromuscular Fatigue Monitoring
+
+For this project, I collaborated with the sports science IST member to
+visualize data from depth jumps performed by our athletes, which were
+used to proxy neuromuscular fatigue at different times during the week.
+The data was collected multiple times per week, with different variants
+of the jump recorded and metrics such as jump height and contact time
+recorded for each attempt to calculate relative strength index (RSI). I
+visualized these results using an Shiny dashboard that allowed viewers
+to filter by athlete, across the entire team, subset by day, and by
+position group. Viewers could observe line plots and scatter plots to
+see how the metric varied over time, which allowed us to begin
+identifying athlete baselines and relate that back to the expected
+training load prescribed in the coach's practice plan.
+
+### Physical Literacy Screen
+
+Another project done in collaboration with the sports science IST member
+was to develop automated reports for the physical literacy screen that
+is performed by our athletes at regular intervals during the season.
+This screen assesses the athlete's ability to perform various movements
+under specific domains while remaining in control of their knee, back,
+and shoulders. Each session is filmed and manually scored by the sports
+science IST member, and these scores were input into an excel sheet
+using tidy data principles in a long format to facilitate future
+analysis. From there I creased an Shiny dashboard that read in this data
+and for each athlete generated a detailed report with their results in a
+digestible format. Since the script was actually used by the sports
+science IST member, code had to be written in an incredibly concise and
+intuitive manner such that changes could be made seamlessly and
+anomalies such as annotated notes and missing exercises could be handled
+robustly.
+
+### Opponent Scouting Reports
+
+For the coaching staff, I created an Shiny app that allowed users to
+select an upcoming opponent and generate comprehensive and interactive
+scouting reports that could be exported as interactive HTML documents.
+These reports used detailed event-level (play-by-play) data from
+DataVolley (.dvw) files that were scraped and cleaned in a completely
+asynchronous fashion using Github Actions. The reports were designed in
+direct consultation with the coaching staff and heavily leveraged the
+[`datavolley`](https://github.com/openvolley/datavolley){target="_blank"}
+R package to create compelling visualizations that revealed patterns in
+lineup combinations, passer evaluations, setter tendencies, scoring
+opportunities, serving angles, and attacker strengths. These reports
+were used extensively in gameplanning meetings and provided crucial
+information that directly helped the team optimize their strategy and
+tactics.
+
+### Player and Team Milestones
+
+In this project, I collaborated with the team's social media manager to
+provide statistics that were used in promotional content to recognize
+[individual player
+milestones](https://www.instagram.com/p/DGEjzFdyAuO/){target="_blank"}
+and [team
+records](https://www.instagram.com/p/DDDawJWyG9B/){target="_blank"}.
+This culminated in a [comprehensive leaderboard of all-time player
+statistics](https://www.instagram.com/p/DGJjcuTS_fN/){target="_blank"}
+that will be continually updated and serve for alumni engagement. To
+acquire the data used in these posts, I scraped 15 seasons worth of OUA
+boxscore data by adapting existing code from the `usportsR` package and
+stored them in a database. Before and after each game I would then run a
+set of predefined queries on the database to identify players who were
+reasonably close or had recently achieved a personal or team milestone,
+and then I would alert the social media manager who would then develop
+the corresponding social media content. Using this workflow we were able
+to capture dozens of milestones that went unnoticed in previous years,
+and these posts become some of our most popular across our accounts.
+
+## Reflections
+
+-   I'm overall really happy with how the first full year of this went.
+    Getting to work on projects that all had a meaningful impact on the
+    operations of the volleyball team was extremely gratifying. Seeing
+    my fellow data solutions peers experience their own wins was also
+    really motivating, and I learned a lot about the skills and lessons
+    necessary to effective integrate with the other members of the IST -
+    a learned a couple of kinesiology facts as well!
+
+-   There are many things that I'm looking forward to improving with the
+    IST at large as well as specifically within volleyball. Being able
+    to dedicate time to ad-hoc coaching requests is something that I
+    wasn't able to do very effectively, and I also struggled to
+    developed a reliable automated data cleaning workflow that was
+    necessary for the advanced metrics, so I was only able to deliver
+    them at the end of the season. Finally, I wasn't able to improve
+    upon my scouting report/video highlight clipping Shiny application,
+    which i believe could have been extensively used by the entire team
+    had it been refactored and optimized.
+
+-   For next season, I'm looking forward to developing improved data
+    integrations with our vendors, such as an automated data engineering
+    pipeline for data extracted from
+    [Balltime](https://www.balltime.com){target="_blank"} and
+    [Perfbook](https://perfbook.fr){target="_blank"}. I'd also like to
+    develop a dashboard tool for our Strength and Conditioning data that
+    is collected from
+    [Teambuildr](https://teambuildr.com){target="_blank"}.

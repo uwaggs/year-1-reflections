@@ -1,0 +1,16 @@
+---
+title: "Shamar Phillips"
+author: "4th Year<br>Combinatorics and Optimization<br>Infrastructure"
+---
+
+<!-- ### Shamar Phillips, 4th Year Combinatorics and Optimization Student, Infrastructure -->
+
+I joined the IST program to help build the infrastructure necessary to support a sports analytics group.
+
+## Projects
+
+### usportsR:
+
+[usportsR](https://github.com/uwaggs/usportsR){target="_blank"} is an R package that provides data from the Usports (The Governing Body of University Sport in Canada) sports. It supports 11 sports across mens and womens varsity with access to preseason, regular season and playoff games. It took a lot of work to collect the data which taught me a lot of valuable skills. Once the data was collected we had build the package which interfaces with all the data we collected. It has been used by david to produce instagram posts highlight single game records achieved by the womens volleyball team this past season.
+
+The overall experience was great it was my first real experience working on a project this large. What went well was that we met up frequently and got to learn from each other. I also got to present this package at Carnegie Mellon which was a very cool experience. I would say that my time management needs to improve, I found that I would forget about tasks and leave them behind. This upcoming term I want to prioritize setting good timelines and ensuring I can meet them. I also think there is a lot of value in documentation and will ensure that will be a priority as well.

@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "IST Data Solutions Year 1 Reflections"
+  reader-mode: true
+  chapters:
+    - index.qmd
+    - david-awosoga/david-awosoga.qmd
+    - fauzan-lodhi/fauzan-lodhi.qmd
+    - krish-bajaj/krish-bajaj.qmd
+    - hudson-holman/hudson-holman.qmd
+    - rithika-silva/rithika-silva.qmd
+    - shamar-phillips/shamar-phillips.qmd
+  site-url: https://uwaggs.github.io/year-1-reflections/
+
+#bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+editor: visual
+
+execute:
+  freeze: auto
