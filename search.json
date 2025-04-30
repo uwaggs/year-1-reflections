@@ -1,0 +1,182 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IST Data Solutions Year 1 Reflections",
+    "section": "",
+    "text": "Introduction\nAn Integrated Support Team (IST) is a collaborative group of individuals who support athletes, coaches, and teams by consolidating expertise from their respective domains to ensure that athletes are optimized for performance. This is a model used by numerous professional and national sport organizations (cite), and is being implemented at the University of Waterloo to provide both experiential and work-integrated learning opportunities for students and best-in class support to several varsity athletics teams.\nAs an IST member, students have the opportunity to get academic credits while collaborating with other undergraduate students to further support Warrior athletes and coaches. Integration is an essential element of professional practice in the sports industry and this opportunity provides concrete experience which allows students to develop interpersonal, and collaboration, and technical skills.\n2024–25 was the pilot year for the IST program, with four streams offered: sports science, data solutions, athletic therapy, and strength and conditioning.\nIn this article, members from the data solutions stream will share details on some of their projects and reflect on their experiences.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "david-awosoga/david-awosoga.html",
+    "href": "david-awosoga/david-awosoga.html",
+    "title": "1  David Awosoga",
+    "section": "",
+    "text": "1.1 Projects\nI started the data solutions stream of the Waterloo Warriors IST to further my vision of making the University of Waterloo a leader in sports analytics, particular within their application to varsity athletics. To create a sustainable pipeline of performance analysts and data scientists equipped to fill these roles across the athletics department, I developed a curriculum in the form of a directed reading program and actively mentor and guide students on their respective projects. I trained, coordinated, and supervised the other members of the data solutions stream, and while the work required to get this initiative off the ground has been tremendous, but the positive feedback from coaches, teams, and members has provided assurance that this group will continue to blossom.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>David Awosoga</span>"
+    ]
+  },
+  {
+    "objectID": "david-awosoga/david-awosoga.html#projects",
+    "href": "david-awosoga/david-awosoga.html#projects",
+    "title": "1  David Awosoga",
+    "section": "",
+    "text": "1.1.1 Neuromuscular Fatigue Monitoring\nFor this project, I collaborated with the sports science IST member to visualize data from depth jumps performed by our athletes, which were used to proxy neuromuscular fatigue at different times during the week. The data was collected multiple times per week, with different variants of the jump recorded and metrics such as jump height and contact time recorded for each attempt to calculate relative strength index (RSI). I visualized these results using an Shiny dashboard that allowed viewers to filter by athlete, across the entire team, subset by day, and by position group. Viewers could observe line plots and scatter plots to see how the metric varied over time, which allowed us to begin identifying athlete baselines and relate that back to the expected training load prescribed in the coach’s practice plan.\n\n\n1.1.2 Physical Literacy Screen\nAnother project done in collaboration with the sports science IST member was to develop automated reports for the physical literacy screen that is performed by our athletes at regular intervals during the season. This screen assesses the athlete’s ability to perform various movements under specific domains while remaining in control of their knee, back, and shoulders. Each session is filmed and manually scored by the sports science IST member, and these scores were input into an excel sheet using tidy data principles in a long format to facilitate future analysis. From there I creased an Shiny dashboard that read in this data and for each athlete generated a detailed report with their results in a digestible format. Since the script was actually used by the sports science IST member, code had to be written in an incredibly concise and intuitive manner such that changes could be made seamlessly and anomalies such as annotated notes and missing exercises could be handled robustly.\n\n\n1.1.3 Opponent Scouting Reports\nFor the coaching staff, I created an Shiny app that allowed users to select an upcoming opponent and generate comprehensive and interactive scouting reports that could be exported as interactive HTML documents. These reports used detailed event-level (play-by-play) data from DataVolley (.dvw) files that were scraped and cleaned in a completely asynchronous fashion using Github Actions. The reports were designed in direct consultation with the coaching staff and heavily leveraged the datavolley R package to create compelling visualizations that revealed patterns in lineup combinations, passer evaluations, setter tendencies, scoring opportunities, serving angles, and attacker strengths. These reports were used extensively in gameplanning meetings and provided crucial information that directly helped the team optimize their strategy and tactics.\n\n\n1.1.4 Player and Team Milestones\nIn this project, I collaborated with the team’s social media manager to provide statistics that were used in promotional content to recognize individual player milestones and team records. This culminated in a comprehensive leaderboard of all-time player statistics that will be continually updated and serve for alumni engagement. To acquire the data used in these posts, I scraped 15 seasons worth of OUA boxscore data by adapting existing code from the usportsR package and stored them in a database. Before and after each game I would then run a set of predefined queries on the database to identify players who were reasonably close or had recently achieved a personal or team milestone, and then I would alert the social media manager who would then develop the corresponding social media content. Using this workflow we were able to capture dozens of milestones that went unnoticed in previous years, and these posts become some of our most popular across our accounts.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>David Awosoga</span>"
+    ]
+  },
+  {
+    "objectID": "david-awosoga/david-awosoga.html#reflections",
+    "href": "david-awosoga/david-awosoga.html#reflections",
+    "title": "1  David Awosoga",
+    "section": "1.2 Reflections",
+    "text": "1.2 Reflections\n\nI’m overall really happy with how the first full year of this went. Getting to work on projects that all had a meaningful impact on the operations of the volleyball team was extremely gratifying. Seeing my fellow data solutions peers experience their own wins was also really motivating, and I learned a lot about the skills and lessons necessary to effective integrate with the other members of the IST - a learned a couple of kinesiology facts as well!\nThere are many things that I’m looking forward to improving with the IST at large as well as specifically within volleyball. Being able to dedicate time to ad-hoc coaching requests is something that I wasn’t able to do very effectively, and I also struggled to developed a reliable automated data cleaning workflow that was necessary for the advanced metrics, so I was only able to deliver them at the end of the season. Finally, I wasn’t able to improve upon my scouting report/video highlight clipping Shiny application, which i believe could have been extensively used by the entire team had it been refactored and optimized.\nFor next season, I’m looking forward to developing improved data integrations with our vendors, such as an automated data engineering pipeline for data extracted from Balltime and Perfbook. I’d also like to develop a dashboard tool for our Strength and Conditioning data that is collected from Teambuildr.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>David Awosoga</span>"
+    ]
+  },
+  {
+    "objectID": "fauzan-lodhi/fauzan-lodhi.html",
+    "href": "fauzan-lodhi/fauzan-lodhi.html",
+    "title": "2  Fauzan Lodhi",
+    "section": "",
+    "text": "2.1 Projects",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fauzan Lodhi</span>"
+    ]
+  },
+  {
+    "objectID": "fauzan-lodhi/fauzan-lodhi.html#projects",
+    "href": "fauzan-lodhi/fauzan-lodhi.html#projects",
+    "title": "2  Fauzan Lodhi",
+    "section": "",
+    "text": "2.1.1 Player scouting cards\nInitially created player scouting cards in Power BI. Ran into access issues and was forced to pivot. Will be deployed on a Shiny app in the future.\nThis included box score stats and synergy data, which was cleaned and aggregated using Pandas.\nThis was entirely done between us and Coach (e.g. no other IST streams).\n\n\n2.1.2 Pregame scouts\nCombined player scouting numbers and team stats into pregame scouts. These were sent to Coach every Sunday evening for all games in the upcoming week.\nThis included box score stats and synergy data, which was cleaned and aggregated using Pandas.\nThis was entirely done between us and Coach (e.g. no other IST streams).\n\n\n2.1.3 Shot selection correlations\nCoach tagged 100 shots with a number of variables and then labelled shots based on selection (1-10). Variables included: - who started the break? - hit ahead? - contested? - etc.\nRan correlation numbers and reported back to him.\nentirely done between us and Coach (e.g. no other IST streams).\n\n\n2.1.4 Postgame reports\nCompiled box score stats into postgame reports for coaches and players to reflect. This included individual player stats as well as team box score stats, pace, etc.\n\n\n2.1.5 RPE Analysis\nThis is an ongoing project with the sports science stream. Trying to identify trends in player ``Rated Perceived Exertion (RPE)’’ before and after practices, daily. The end goal is to help coaches optimize practice plans and maximize athlete wellness and engagement.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fauzan Lodhi</span>"
+    ]
+  },
+  {
+    "objectID": "fauzan-lodhi/fauzan-lodhi.html#overall-experience",
+    "href": "fauzan-lodhi/fauzan-lodhi.html#overall-experience",
+    "title": "2  Fauzan Lodhi",
+    "section": "2.2 Overall Experience",
+    "text": "2.2 Overall Experience\nOverall I enjoyed my first year with the team. It took some time to get things rolling and at times both we and the coaches were unsure of our roles, how involved we needed to be, and how to improve our work.\nIn the Fall, we were less engaged and operated in the background. However, in the Winter I was much more involved with the team, going to practices and games to connect with coaches, athletes, and trainers. The added engagement and interaction not only boosted productivity but also allowed us to understand the team better and identify ways to tailor our projects to their needs.\n\n2.2.1 What went well?\n\nCoaches showed excitement for the program\nTeam was great to be around\nDavid, Rithika & data solutions team were extremely supportive throughout the season and made things much easier\n\n\n\n2.2.2 What needs to improve?\n\nRead, read, read.\nMore formal IST meetings with all streams (already on the table)\nI need to be more creative.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fauzan Lodhi</span>"
+    ]
+  },
+  {
+    "objectID": "krish-bajaj/krish-bajaj.html",
+    "href": "krish-bajaj/krish-bajaj.html",
+    "title": "3  Krish Bajaj",
+    "section": "",
+    "text": "3.1 Projects Completed",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Krish Bajaj</span>"
+    ]
+  },
+  {
+    "objectID": "krish-bajaj/krish-bajaj.html#projects-completed",
+    "href": "krish-bajaj/krish-bajaj.html#projects-completed",
+    "title": "3  Krish Bajaj",
+    "section": "",
+    "text": "3.1.1 U Sports Hoops Pro Players Scraper\nI built a tool that collects men’s basketball players who signed professionally from U Sports Hoops and saves them into an Excel sheet. The coaches are currently using this tool. There is still room to improve the interface, and in the future, I plan to add player statistics to make it more helpful.\n\n\n3.1.2 U Sports Stats Scraper\nI also created a script that tracks current and upcoming games, saving scores and matchups into a live-updating Excel file. Though it isn’t actively used yet, it gave me good practice with building a full pipeline that could support team staff if needed.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Krish Bajaj</span>"
+    ]
+  },
+  {
+    "objectID": "krish-bajaj/krish-bajaj.html#reflection",
+    "href": "krish-bajaj/krish-bajaj.html#reflection",
+    "title": "3  Krish Bajaj",
+    "section": "3.2 Reflection",
+    "text": "3.2 Reflection\nI enjoyed working on these projects. It helped me build skills in data handling and thinking about real-world use cases. Next season, I will be working with the Infrastructure team, and I’m looking forward to learning more, building more, and improving my communication throughout the process. I also hope to continue developing the GUI for the Pro Players tool to make it even more useful for the coaches.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Krish Bajaj</span>"
+    ]
+  },
+  {
+    "objectID": "hudson-holman/hudson-holman.html",
+    "href": "hudson-holman/hudson-holman.html",
+    "title": "4  Hudson Holman",
+    "section": "",
+    "text": "4.1 Projects\nI had helped the men’s hockey team in previous years but working solo and without clear direction drained my interest in the endeavour. When I met David and he introduced me to the Data Solutions IST program, I immediately regained my enthusiasm for both the sport and data science. He designed this program with a clear vision and my participation in this group has had numerous benefits. I get to connect with and learn from like-minded students, all of whom are much smarter than me and have helped me improve my technical skills. Together with Arun, I think our work helped Brian Bourque lead the team to an unexpected playoff berth this season.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hudson Holman</span>"
+    ]
+  },
+  {
+    "objectID": "hudson-holman/hudson-holman.html#projects",
+    "href": "hudson-holman/hudson-holman.html#projects",
+    "title": "4  Hudson Holman",
+    "section": "",
+    "text": "Game Lineup Sheet - Making sure the sheet containing the schedule and player statistics are up to date and emailing it to coach 24 hours before the next game.\nIn-Game Tracking - This sheet was used to track events happening during an individual game. All data would be imported into a shared Excel file however I think 2025-26 season will see a different process.\nIn-Season Reporting - For the first year, I did a mid-season and end-of-season report that explored some of my data and data coming from InStat. Met with Brian Bourque to go over my findings and brainstorm strategies based on the information. Future reports can be added through this repo.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hudson Holman</span>"
+    ]
+  },
+  {
+    "objectID": "hudson-holman/hudson-holman.html#reflections",
+    "href": "hudson-holman/hudson-holman.html#reflections",
+    "title": "4  Hudson Holman",
+    "section": "4.2 Reflections",
+    "text": "4.2 Reflections\n\nWhat went well: Consistent touchpoints with the coaching staff (always having Arun or I at the games and discussing our work with them on a weekly basis)\nWhat I want to improve: I can always improve my technical skills. This involves experimentation but requires inspiration from hockey research. So, I would say I need to say more accountable in keeping up with hockey research and working on simple ways of applying this research to my work with men’s hockey.\nWhat I’m looking forward to doing next season: Unfortunately, I will not be returning to the IST as I am graduating. However, I am excited to see less tracking (much of time was spent here) and more analysis and see some of Arun’s projects come to fruition. Especially his work on line combinations.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hudson Holman</span>"
+    ]
+  },
+  {
+    "objectID": "rithika-silva/rithika-silva.html",
+    "href": "rithika-silva/rithika-silva.html",
+    "title": "5  Rithika Silva",
+    "section": "",
+    "text": "5.1 Projects\nI joined to establish the infrastructure necessary to support a multi-sport IST program. Everything from automated data collection, data pipelining, to writing tools for the student analysts.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Rithika Silva</span>"
+    ]
+  },
+  {
+    "objectID": "rithika-silva/rithika-silva.html#projects",
+    "href": "rithika-silva/rithika-silva.html#projects",
+    "title": "5  Rithika Silva",
+    "section": "",
+    "text": "5.1.1 usportspy:\nusportspy is a Python package to extract and analyze data for U SPORTS, the Governing Body of University Sport in Canada. It currently supports 11 sports and contains functions that return play-by-play, box scores, and rankings data for over a decade’s worth of pre-season, regular season, and post-season games.\nConstructing usportspy (and usportsR), required a lot of setup work. The data that we wanted to house were scattered across the internet, so required scrapers to be built for each sport. We opted to use GitHub Actions to run our scrapers (one for each sport), and store the data as releases (since the quantity of data for sport was reasonable and wouldn’t increase quickly). This infrastructure allowed for decoupling of the collection process and development of the package(s) themselves.\nThe associated paper and links to usportspy and usportsR can be found here.\n\n\n5.1.2 Synergy Scraper:\n“synergy-scraper” is an in-house scraper to collect information for U SPORTS basketball. Synergy Sports is a professional-level sports analytics and video platform, primarily used for basketball. It houses possession-by-possession video, advanced analytics, and scouting reports. Our scraper was designed to archive data on various aspects of gameplay, such as defensive, cuts, offensive rebounds, and ball handling.\nThe goal was to provide analysts easy access to a wealth of detailed performance statistics in an easily accessible format (GitHub releases). The mechanics of the scraper leverages the internal Synergy API, and thus required reverse engineering the sites PKCE (Proof Key for Code Exchange) to replicate it programmatically. We opted for this over using a UI-based approach for robustness, as APIs are less likely to change than frontend views. The second hurdle encountered was converting “magic numbers” in requests headers pertaining to values such as “Report Types” and “Play Types”. Doing so involved manually sending requests through the browser and monitoring network requests to match options selected with requests sent.\n\n\n5.1.3 Instat Scraper:\n“instat-scraper” is an in-house scraper to collect information for U SPORTS hockey from the Instat Hudl instance used for UW hockey. Instat is an application used for analysis and scouting that uses tagged video film and tagged data to enhance performance analysis for teams. The goal of the scraper was to archive the player statistics tables presented under the “Games”, “Skaters”, and “Goalies” tabs.\nUnfortunately, we were unable to find a convenient way of logging in that didn’t involve browser automation. Fortunately, there was a download button for each table that returned a xlsx file for each table we wanted. As a result, the overall code is not very complex.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Rithika Silva</span>"
+    ]
+  },
+  {
+    "objectID": "rithika-silva/rithika-silva.html#reflections",
+    "href": "rithika-silva/rithika-silva.html#reflections",
+    "title": "5  Rithika Silva",
+    "section": "5.2 Reflections",
+    "text": "5.2 Reflections\nAs an infrastructure team, we were able to get the groundwork for getting some data collection pipelines up and running. We leveraged GitHub Actions and releases to run our workflows and store our data. While this isn’t ideal, it seems to be fairly reliable. To move forwards, having our own compute is vital. For the upcoming season, the goal is to have collection-to-insight pipelines for our supported teams. This involves coming up with generalized structures so that we don’t duplicate work.\nDocumentation going forwards is also very important.\nConnect with me: (Site, Blog, LinkedIn, GitHub)",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Rithika Silva</span>"
+    ]
+  },
+  {
+    "objectID": "shamar-phillips/shamar-phillips.html",
+    "href": "shamar-phillips/shamar-phillips.html",
+    "title": "6  Shamar Phillips",
+    "section": "",
+    "text": "6.1 Projects\nI joined the IST program to help build the infrastructure necessary to support a sports analytics group.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Shamar Phillips</span>"
+    ]
+  },
+  {
+    "objectID": "shamar-phillips/shamar-phillips.html#projects",
+    "href": "shamar-phillips/shamar-phillips.html#projects",
+    "title": "6  Shamar Phillips",
+    "section": "",
+    "text": "6.1.1 usportsR:\nusportsR is an R package that provides data from the Usports (The Governing Body of University Sport in Canada) sports. It supports 11 sports across mens and womens varsity with access to preseason, regular season and playoff games. It took a lot of work to collect the data which taught me a lot of valuable skills. Once the data was collected we had build the package which interfaces with all the data we collected. It has been used by david to produce instagram posts highlight single game records achieved by the womens volleyball team this past season.\nThe overall experience was great it was my first real experience working on a project this large. What went well was that we met up frequently and got to learn from each other. I also got to present this package at Carnegie Mellon which was a very cool experience. I would say that my time management needs to improve, I found that I would forget about tasks and leave them behind. This upcoming term I want to prioritize setting good timelines and ensuring I can meet them. I also think there is a lot of value in documentation and will ensure that will be a priority as well.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Shamar Phillips</span>"
+    ]
+  }
+]
