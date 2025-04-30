@@ -1,11 +1,9 @@
 ---
 title: "Rithika Silva"
-author: "4th Year<br>Bachelor of Computer Science<br>Infrastructure"
+author: "4th Year<br>Bachelor of Computer Science, Minor in Combinatorics & Optimization<br>Infrastructure Developer"
 ---
 
-<!-- ## Rithika Silva, 4th Year Bachelor of Computer Science, Infrastructure Developer -->
-
-I joined to establish the infrastructure necessary to support a multi-sport IST program. Everything from automated data collection, data pipelining, to writing tools for the student analysts.
+I joined the data solutions stream of the Waterloo Warriors IST to establish the infrastructure necessary to support a multi-sport IST program. This includes everything from automated data collection, data pipelining, to writing tools for the student analysts.
 
 ## Projects
 
@@ -31,8 +29,5 @@ Unfortunately, we were unable to find a convenient way of logging in that didn't
 
 ## Reflections
 
-As an infrastructure team, we were able to get the groundwork for getting some data collection pipelines up and running. We leveraged GitHub Actions and releases to run our workflows and store our data. While this isn't ideal, it seems to be fairly reliable. To move forwards, having our own compute is vital. For the upcoming season, the goal is to have collection-to-insight pipelines for our supported teams. This involves coming up with generalized structures so that we don't duplicate work.
+As an infrastructure team, we were able to get the groundwork for getting some data collection pipelines up and running. We leveraged GitHub Actions and releases to run our workflows and store our data. While this isn't ideal, it seems to be fairly reliable. Move forwards, having our own compute is vital. For the upcoming season, the goal is to have collection-to-insight pipelines for our supported teams. This involves finalizing generalized structures so that we don't duplicate work. As our codebase and infrastructure grows larger, documentation is going to become more and more important.
 
-Documentation going forwards is also very important.
-
-Connect with me: ([Site](https://rithikasilva.ca/), [Blog](https://rithikasilva.ca/b.log-/), [LinkedIn](https://ca.linkedin.com/in/rithika-silva-861b0818a), [GitHub](https://github.com/rithikasilva))
