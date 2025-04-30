@@ -134,7 +134,7 @@
     "href": "rithika-silva/rithika-silva.html",
     "title": "5  Rithika Silva",
     "section": "",
-    "text": "5.1 Projects\nI joined to establish the infrastructure necessary to support a multi-sport IST program. Everything from automated data collection, data pipelining, to writing tools for the student analysts.",
+    "text": "5.1 Projects\nI joined the data solutions stream of the Waterloo Warriors IST to establish the infrastructure necessary to support a multi-sport IST program. This includes everything from automated data collection, data pipelining, to writing tools for the student analysts.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Rithika Silva</span>"
     ]
@@ -154,7 +154,7 @@
     "href": "rithika-silva/rithika-silva.html#reflections",
     "title": "5  Rithika Silva",
     "section": "5.2 Reflections",
-    "text": "5.2 Reflections\nAs an infrastructure team, we were able to get the groundwork for getting some data collection pipelines up and running. We leveraged GitHub Actions and releases to run our workflows and store our data. While this isn’t ideal, it seems to be fairly reliable. To move forwards, having our own compute is vital. For the upcoming season, the goal is to have collection-to-insight pipelines for our supported teams. This involves coming up with generalized structures so that we don’t duplicate work.\nDocumentation going forwards is also very important.\nConnect with me: (Site, Blog, LinkedIn, GitHub)",
+    "text": "5.2 Reflections\nAs an infrastructure team, we were able to get the groundwork for getting some data collection pipelines up and running. We leveraged GitHub Actions and releases to run our workflows and store our data. While this isn’t ideal, it seems to be fairly reliable. Move forwards, having our own compute is vital. For the upcoming season, the goal is to have collection-to-insight pipelines for our supported teams. This involves finalizing generalized structures so that we don’t duplicate work. As our codebase and infrastructure grows larger, documentation is going to become more and more important.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Rithika Silva</span>"
     ]
