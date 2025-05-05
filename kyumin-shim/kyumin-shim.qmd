@@ -1,0 +1,18 @@
+---
+title: "Kyu Min Shim"
+author: "1st Year<br>PhD Statistics<br>Men's Volleyball (MVB) Analyst"
+---
+
+<!-- ## Kyu Min Shim, 1st Year PhD Statistics, Men's Volleyball -->
+
+
+## Projects
+
+-   [105 Sheet Data Visualization](https://github.com/uwaggs/MVB-Serve-Analysis) - MVB has been collecting in-game serve data in detail on excel sheets called 105. Although it provided useful statistics at individual game level, it was difficult to assess any trends over time both at the team and individual player level. I wrote an R script to process the excel data and turn it into a long table format, and used shiny to build dashboard that can display trends of serve quality over time at different levels such as team, game, and player. 
+
+
+## Reflections
+
+-   What went well: I am happy to have built something that works well and addresses the main issue of the existing 105 sheets - the inability to assess trends overtime. I did not have much experience with shiny before, but was able to gain this skill through this project. 
+-   What I want to improve: Most of my work was done asynchronously this year, and I feel that I could have been more involved with the team in many ways. Although I will remain mostly remote in the future, I hope to have more frequent conversation with the coach and the team to address their needs and strengthen our relationship. 
+-   What I'm looking forward to doing next season: I look forward to working on a more variety of projects through research and brainstorming over the summer with the team and new MVB analysts. 
